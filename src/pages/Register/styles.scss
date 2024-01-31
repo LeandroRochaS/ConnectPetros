@@ -1,0 +1,120 @@
+@import "../../styles/colors.scss";
+@import "../../styles/layout.scss";
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+
+.register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-image: url("../../images/fundo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  background-color: rgba($color: $green, $alpha: 0.4);
+}
+
+.forgotPassword {
+  font-size: 1rem;
+  color: #75788b;
+  transition: 0.2s;
+  width: 100%;
+  text-align: end;
+  margin-top: 3px;
+  cursor: pointer;
+
+  &:hover {
+    color: $green;
+  }
+}
+
+.register-card-container {
+  max-width: 400px;
+  width: 100%;
+
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding: 20px 7px 10px 7px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .card-title {
+    font-size: 2rem;
+    font-family: "PT Sans", sans-serif;
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+
+    label {
+      font-size: 0.9rem;
+      color: #75788b;
+    }
+
+    .submit-button {
+      background: rgb(0, 133, 66);
+      color: #fff;
+      border: none;
+      border-radius: 100px;
+      padding: 16px;
+      font-weight: bold;
+      padding: 10px 12px;
+      height: 44px;
+      width: 100%;
+      max-width: 220px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: 0.2s ease;
+
+      &:hover {
+        background: rgba($color: $green, $alpha: 0.9);
+        transform: scale(1.01);
+      }
+    }
+  }
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  input,
+  select {
+    border: 1px solid #ddd;
+    padding: 16px;
+    border-radius: 12px;
+    outline: none;
+    color: #008542;
+  }
+}
+
+.signup {
+  width: 80%;
+  color: #75788b;
+  font-weight: 500;
+
+  a {
+    color: $green-light;
+    font-weight: 500;
+    transition: 0.2s;
+
+    &:hover {
+      color: $green;
+    }
+  }
+}
+
+.error {
+  border: 0.1px solid red !important;
+}

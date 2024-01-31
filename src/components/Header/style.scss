@@ -1,0 +1,36 @@
+@import "../../styles/colors.scss";
+
+header {
+  background-color: #ffff;
+  height: 80px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+.header-input-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 300px;
+  border-radius: 12px;
+  background: #ffff;
+
+  input {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    background-color: transparent;
+  }
+
+  button {
+    border: none;
+    outline: none;
+    background-color: #fff;
+    cursor: pointer;
+  }
+}

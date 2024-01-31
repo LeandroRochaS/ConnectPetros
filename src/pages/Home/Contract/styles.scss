@@ -1,0 +1,48 @@
+@import "../../../styles/colors.scss";
+.contract-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 30px;
+  margin: 2rem 0;
+  margin-left: 3rem;
+  width: 100%;
+  min-width: 450px;
+  min-height: 500px;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+
+  h1 {
+    color: #494a55;
+    font-size: 2.2rem;
+    padding-top: 10px;
+  }
+}
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.icon-4 {
+  width: 70px;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.dados-user {
+  display: flex;
+  align-items: center;
+  p {
+    font-size: 1rem;
+  }
+  span {
+    padding: 5px;
+    font-size: 0.9rem;
+  }
+}

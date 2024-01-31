@@ -1,0 +1,28 @@
+$green: #145c1c;
+$green-light: #46ae78;
+$green-medium: #008542;
+$white: #f0f0ef;
+$yellow: #d6b131;
+$gray: #9da09b;
+$brown: #7e7162;
+$black-light: #222;
+
+.color-green {
+  color: $green-light;
+}
+
+.color-black {
+  color: $black-light !important;
+}
+
+.color-gray {
+  color: $gray;
+}
+
+.color-green-medium {
+  color: $green-medium;
+}
+
+.color-gray-2 {
+  color: #494a55;
+}

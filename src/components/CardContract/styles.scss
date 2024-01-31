@@ -1,0 +1,72 @@
+@import "../../styles/colors.scss";
+.card {
+  background-color: #fff;
+  height: 70px;
+  border-radius: 5px;
+  padding: 7px;
+
+  p {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+}
+
+.card-description {
+  width: 100%;
+  min-width: 450px;
+}
+
+.icon {
+  height: 48px;
+}
+
+.icon-2 {
+  height: 32px;
+  margin-left: 0.5rem;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.6;
+  }
+}
+
+.status {
+  min-width: 100px;
+}
+
+.icons {
+  align-self: flex-end;
+}
+
+.contract-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  button {
+    height: 40px;
+    width: 100%;
+    max-width: 200px;
+    padding: 12px 24px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  :nth-child(1) {
+    background-color: $green;
+  }
+
+  :nth-child(2) {
+    background-color: $yellow;
+    color: #fff;
+    margin-left: 1rem;
+  }
+
+  :nth-child(3) {
+    background-color: #ec5353;
+    margin-left: 1rem;
+  }
+}

@@ -1,0 +1,80 @@
+@import "../../styles/colors.scss";
+
+aside {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  max-width: 120px;
+  width: 100%;
+  background-color: $green;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+
+  button {
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    img {
+      height: 36px;
+    }
+  }
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 30px;
+  list-style: none;
+
+  li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 50px;
+    border-radius: 12px;
+    cursor: pointer;
+
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      opacity: 0.8;
+    }
+
+    img {
+      height: 50px;
+      padding-bottom: 0.5rem;
+    }
+
+    a {
+      color: #fff;
+      font-size: 1rem;
+      font-weight: 700;
+      transition: all 0.2s ease-in-out;
+      text-decoration: none;
+    }
+  }
+}
+.logo-container {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    height: 100px;
+  }
+}
