@@ -51,7 +51,12 @@ export default function SideBar() {
           {dataUser?.role != "bidder" && (
             <li>
               <img src={mail} alt="Mail" />
-              <a href="#">Teams</a>
+              <a
+                href="https://www.microsoft.com/pt-br/microsoft-365/microsoft-teams/free"
+                target="_blank"
+              >
+                Teams
+              </a>
             </li>
           )}
 

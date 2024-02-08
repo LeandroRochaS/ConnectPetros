@@ -109,8 +109,6 @@ export default function AddContract(props: { handle: () => void }) {
                 <option value="GIAD">GIAD</option>
                 <option value="SOP/ALSO">SOP/ALSO</option>
                 <option value="GSTD/ENPI">GSTD/ENPI</option>
-                <option value="CONT">CONT</option>
-                <option value="BIDDER">BIDDER</option>
               </select>
             </div>
 

@@ -107,7 +107,6 @@ export default function Register() {
                 <option value="SOP0ALSO">SOP/ALSO</option>
                 <option value="GSTD0ENPI">GSTD/ENPI</option>
                 <option value="CONT">CONT</option>
-                <option value="BIDDER">BIDDER</option>
               </select>
             </div>
             <div className="input-container  mt-1">
